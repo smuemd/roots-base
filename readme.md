@@ -1,8 +1,9 @@
-# roots-base
+Discovergy website
 
-Clean Roots Install
+website
 
-### Setup
+Setup
+-----
 
 - make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
 - clone this repo down and `cd` into the folder
@@ -11,7 +12,10 @@ Clean Roots Install
 - ???
 - get money
 
-### Deploying
 
-- If you just want to compile the production build, run `roots compile -e production` and it will build to public.
-- To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use.
+Deployment
+----------
+
+This site is hosted at Netlify.
+
+Run `make deploy` to deploy the site. This command is a shortcut for compiling the site with roots and deploying using [ship](https://github.com/carrot/ship). See the [Makefile](Makefile) for more info.
